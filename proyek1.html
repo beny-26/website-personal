@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iklan Banner Sederhana</title>
+    <style>
+        /* Gaya untuk kotak iklan */
+        .banner-iklan {
+            width: 100%;
+            max-width: 600px;
+            background-color: #ff5733;
+            color: #fff;
+            padding: 20px;
+            margin: auto;
+            border-radius: 8px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        
+        /* Efek hover */
+        .banner-iklan:hover {
+            transform: scale(1.05);
+        }
+
+        /* Gaya teks utama */
+        .banner-iklan h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Gaya deskripsi */
+        .banner-iklan p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Tombol ajakan bertindak */
+        .banner-iklan a {
+            background-color: #fff;
+            color: #ff5733;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .banner-iklan {
+            width: 100%;
+            max-width: 800px;
+            background-color: #ff5733;
+            color: #fff;
+            padding: 20px;
+            margin: auto;
+            border-radius: 8px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .banner-iklan:hover {
+            transform: scale(1.05);
+        }
+
+        .banner-iklan h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .banner-iklan p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .produk-container {
+            display: grid; grid-template-columns: repeat(auto-fit, maxmin(200px 1fr);
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .produk {
+            background-color: #fff;
+            color: #333;
+            width: 180px;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .produk:hover {
+            transform: scale(1.05);
+        }
+
+        .produk img {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax (200px 1fr));
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .produk h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .produk p {
+            font-size: 16px;
+            color: #ff5733;
+            font-weight: bold;
+        }
+
+        .produk a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #ff5733;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .produk a:hover {
+            background-color: #e74c3c;
+        }
+
+
+        /* Efek hover pada tombol */
+        .banner-iklan a:hover {
+            background-color: #ff5733;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Struktur iklan -->
+    <div class="banner-iklan">
+        <h2>Diskon Besar Akhir Tahun!</h2>
+        <p>Dapatkan diskon hingga 50% untuk semua produk kami. Jangan lewatkan kesempatan ini!</p>
+        <a href="https://beny800.wordpress.com" target="_blank">Belanja Sekarang</a>
+    </div>
+</body>
+
+<body>
+    <div class="banner-iklan">
+        <h2>peromo produk terbaik</h2>
+        <p>Dapatkan Produk Favorit Anda Dengan Harga Spesial</p>
+        <div class="produk-container">
+            <div class="produk">
+                <img src="1oG7unUN.jpg" alt="produk 1">
+                <h3>produk 1</h3>
+                <p><Rp class="100 000"></Rp></p>
+                <a href="#">beli sekarang</a>
+
+                <div class="banner-iklan">
+                    <h2>promo produk terbaik</h2>
+                    <div class="produk">
+                        <img src="7WFdS1Im.jpg" alt="produk 2">
+                        <h3>produk 2</h3>
+                        <p><Rp class="200 000"></Rp></p>
+                        <a href="#">beli sekarang</a>
+
+                        <div class="banner-iklan">
+                            <h2>promo produk terbaik</h2>
+                            <div class="produk">
+                                <img src="AHfELoVL.jpg" alt="produk 3">
+                                <h3>produk 3</h3>
+                                <p><Rp class="250 000"></Rp></p>
+                                <a href="#">beli sekarng</a>
+
+                                <div class="banner-iklan">
+                                    <h2>promo produk terbaik</h2>
+                                    <div class="produk">
+                                        <img src="HZtpR_DC.jpg" alt="produk 4">
+                                        <h3>produk 4</h3>
+                                        <p><Rp class="275 000"></Rp></p>
+                                        <a href="#">beli sekarang</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
